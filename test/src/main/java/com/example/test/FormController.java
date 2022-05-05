@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.http.ResponseEntity;
 
 @Controller
-@CrossOrigin(origins = "http://localhost")
+@CrossOrigin(origins = "http://localhost") 
 public class FormController {
 	@Autowired
 	SendingMailService sendingMailService;
